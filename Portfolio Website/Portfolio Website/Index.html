@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Developer</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    body{
+        background-color: rgb(0,0,33);
+        color: white;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18,18,62);
+    }
+    nav ul{
+          display: flex;
+          justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: rgb(153,153,226);
+        font-size: 1.02rem;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items:center ;
+        margin: 23px 0;
+    }
+    .firstsection > div{
+        width: 30%;
+
+    }
+    .leftsection{
+        
+        font-size: 3rem;
+     
+
+    }
+    .rightsection img{
+       width: 80%;
+       margin: 50px 0;
+    }
+    .purple{
+        color: rgb(170,107,228);
+    }
+    #element{
+        color: rgb(170,107,228);
+    }
+   /* .secondsection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+    main hr{
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 60px 84px;
+    }
+    .secondsection h1{
+        font-size: 1.9rem;
+    }
+    .text-grey{
+        color: gray;
+    }
+    .secondsection .box{
+     background-color: white;
+     width: 80vw;
+     height: 2px;
+     margin: 56px 0;
+     display: flex;
+    }
+    .secondsection .vertical{
+        height:93px;
+        width:1px;
+        background-color: white;
+        margin:0 100px;
+    }
+    .image-top{
+      width: 23px;
+      position: relative;
+      top: -32px;
+      left: -9px;
+    }
+    .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+
+    }
+    .vertical-desc{
+     position: relative;
+     top: 86px;
+     color: gray;
+     width: 150px;
+     font-size: 9px;
+    } */
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Rohit Portfolio </div>
+            <div class="right"> 
+                <ul>
+                    <li> <a  href="Home.html">Home</a></li>
+                    <li> <a  href="About.html">About</a></li>
+                    <li> <a  href="Services.html">Services</a></li>
+                    <li> <a  href="Work.html">Work</a></li>
+                    <li> <a  href="Resume.html">Resume</a></li>
+                    <li> <a  href="Certificate.html">Certificate</a></li>
+                    <li> <a  href="Contact.html">Contact</a></li>
+                  
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,my name is <span class="purple">Rohit Kushwaha</span>
+                <div>and i am a passionate</div>
+                
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="IMG-20231020-WA0007.jpg">
+            </div>
+        </section>
+        <hr>
+     <!--   <section class="secondsection">
+            <span class="text-grey">What i have so done far</span>
+            <h1>Work experince</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img  class="image-top" src="bg.png_860.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, impedit excepturi voluptate quae vero rerum repellendus cum iusto dolor. Excepturi est sit ratione animi esse placeat adipisci! Et, eaque nostrum!2
+                    </div>
+                </div>
+                <div class="vertical">
+                    Node.js Developer (2012-2014)
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        -->
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Fresher','Web developer', ' Java Developer','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
